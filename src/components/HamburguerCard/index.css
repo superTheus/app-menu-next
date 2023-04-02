@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.hamburguer-card {
+  width: 264px;
+  height: 276px;
+  background: #FFFDFD;
+  border: 1px solid #E5E5E5;
+  box-shadow: 0px 4px 40px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+  gap: 24px;
+}
+.hamburguer-card .image {
+  border-radius: 8px 8px 0px 0px;
+  width: 100%;
+}
+.hamburguer-card .legends {
+  width: 100%;
+  padding: 16px;
+}
+.hamburguer-card .legends h2 {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 110%;
+  margin-bottom: 8px;
+}
+.hamburguer-card .legends p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 130%;
+  color: #9D9797;
+}
+.hamburguer-card .price {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 130%;
+  color: #9D9797;
+  padding-right: 16px;
+  display: flex;
+  justify-content: end;
+}
+.hamburguer-card .price span {
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 110%;
+  color: #32CF52;
+  margin-left: 8px;
+}/*# sourceMappingURL=index.css.map */

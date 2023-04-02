@@ -1,0 +1,33 @@
+@import '../../styles/variables.scss';
+
+.header-container {
+  background-color: #CE3246;
+}
+
+.container-input {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  height: 56px;
+}
+
+.section-wrap {
+  width: 100%;
+  margin-top: 47px;
+}
+
+.category-cards {
+  margin-bottom: 66px;
+  display: flex;
+  gap: 24px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.hamburguer-cards {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  margin-bottom: 30px;
+}
