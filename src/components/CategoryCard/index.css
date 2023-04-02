@@ -19,4 +19,8 @@
   font-size: 28px;
   line-height: 110%;
   color: #9D9797;
+}
+
+.card-category-link {
+  text-decoration: none;
 }/*# sourceMappingURL=index.css.map */

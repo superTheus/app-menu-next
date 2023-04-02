@@ -23,6 +23,23 @@
   overflow: hidden;
 }
 
+.title-category {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.title-category .plus {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  color: gray;
+  display: flex;
+  gap: 28px;
+  text-decoration: none;
+}
+
 .hamburguer-cards {
   width: 100%;
   display: flex;
