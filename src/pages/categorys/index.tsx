@@ -7,6 +7,7 @@ import Massas from '@/assets/images/massas.png';
 import Lanches from '@/assets/images/lanches.jpg';
 import Carnes from '@/assets/images/carnes.jpg';
 import ButtonBell from '@/components/ButtonBell';
+import styles from '@/pages/home/home.module.scss';
 
 export default function HomePage() {
   return (
@@ -14,13 +15,13 @@ export default function HomePage() {
       <Header title='Categorias' subtitle='' btnBack />
       <article>
         <div className='container container__flex'>
-          <section className='container-input'>
+          <section className={styles.containerInput}>
             <SearchInput />
           </section>
 
-          <section className='section-wrap'>
+          <section className={styles.sectionWrap}>
             <Title text='Categorias' />
-            <div className='hamburguer-cards'>
+            <div className={styles.hamburguerCards}>
               <CategoryCard image={Massas} text='Massas' link='/lanche' />
               <CategoryCard image={Pizzas} text='Pizzas' link='/lanche' />
               <CategoryCard image={Carnes} text='Carnes' link='/lanche' />

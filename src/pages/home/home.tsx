@@ -11,6 +11,7 @@ import HamburguerCard from '@/components/HamburguerCard';
 import ButtonBell from '@/components/ButtonBell';
 import { AiOutlinePlus } from "react-icons/ai";
 import Link from 'next/link';
+import styles from './home.module.scss';
 
 export default function HomePage() {
   return (
@@ -18,19 +19,19 @@ export default function HomePage() {
       <Header title='Seja Bem-vindo(a)' subtitle='Olá' activeLinkOne />
       <article>
         <div className='container container__flex'>
-          <section className='container-input'>
+          <section className={styles.containerInput}>
             <SearchInput />
           </section>
 
-          <section className='section-wrap'>
-            <div className='title-category'>
+          <section className={styles.sectionWrap}>
+            <div className={styles.titleCategory}>
               <Title text='Categorias' />
-              <Link href={'/categorys'} className='plus'>
+              <Link href={'/categorys'} className={styles.plus}>
                 <p> Ver mais </p>
                 <AiOutlinePlus />
               </Link>
             </div>
-            <div className='category-cards'>
+            <div className={styles.categoryCards}>
               <CategoryCard image={Massas} text='Massas' link='/lanche' />
               <CategoryCard image={Pizzas} text='Pizzas' link='/lanche' />
               <CategoryCard image={Carnes} text='Carnes' link='/lanche' />
@@ -39,7 +40,7 @@ export default function HomePage() {
               <CategoryCard image={Pizzas} text='Pizzas' link='/lanche' />
             </div>
             <Title text='Cardápio' />
-            <div className='hamburguer-cards'>
+            <div className={styles.hamburguerCards}>
               <HamburguerCard image={Hamburguer} text='X-salada' />
               <HamburguerCard image={Hamburguer} text='X-salada' />
               <HamburguerCard image={Hamburguer} text='X-salada' />

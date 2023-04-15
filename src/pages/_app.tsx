@@ -1,7 +1,6 @@
 import '@/styles/styles.css';
 import '@/components/header/header.css';
 import '@/components/search-input/style.css';
-import '@/pages/home/home.css';
 import '@/components/CategoryCard/index.css';
 import '@/components/HamburguerCard/index.css';
 import '@/components/ButtonBell/index.css';
